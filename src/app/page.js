@@ -23,7 +23,7 @@ function Board({ squares, xIsNext, onPlay }) {
   return (
     <>
       {winner ? (
-        <p>Winnder is: {winner}</p>
+        <p>Winner is: {winner}</p>
       ) : (
         <p>Next Player: {xIsNext ? "X" : "O"}</p>
       )}
